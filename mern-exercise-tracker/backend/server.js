@@ -55,6 +55,9 @@ mongoose.connect(uri, {
 }).catch(error => handleError(error));
 */
 
+// a mongoose connection is an instance of EventEmitter class
+// this adds a one time listener for the event
+// this listener is invoked only the next time the event is fired, after which it is removed
 const connection = mongoose.connection;
 connection.once('open', () => {
     console.log("MongoDB database connection established successfully");

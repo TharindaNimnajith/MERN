@@ -40,7 +40,7 @@ Comparing Tabular (Relational) databases vs. MongoDB (Non-Relational database):
 
 
 MongoDB Documents:
-    
+
     01. Looks similar to JSON (JavaScript Object Notation).
     02. MongoDB stores data on disk in the BSON (Binary JSON)vs.
     03. Can store Strings, Integers, Nested Documents, Arrays, Geo-Spatial Coordinates etc.
@@ -56,7 +56,7 @@ MongoDB Documents:
                 state : "Southern Province",
                 postal_code : "80000"
             },
-            topics : ["Java", "PHP", "SQL", "JavaScript"], 
+            topics : ["Java", "PHP", "SQL", "JavaScript"],
             employee_number : 1234,
             location : [44.9901, 123.0262]
         }
@@ -103,7 +103,7 @@ MongoDB ObjectId:
     03. Can define our own ObjectId if we like as well.
 
     example:
-    
+
         ObjectId("5c2fc4b3e52f37b7ee86096c")
 
         01. UNIX Timestamp (4 bytes) : 5c2fc4b3
@@ -134,9 +134,12 @@ Steps and commands for environment setup and installing necessary dependencies:
             nodemon server
     08. Create .env file in backend directory.
         Add the environment variables.
+    09. Create models directory in backend directory.
+        Create user.model.js file and excercise.model.js files.
+        Write necessary code in user.model.js file and excercise.model.js files.
 
 
-            
+
 05. React introduction
 
 

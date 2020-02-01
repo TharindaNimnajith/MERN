@@ -113,15 +113,45 @@ MongoDB ObjectId:
 
 Steps and commands for environment setup and installing necessary dependencies:
 
-    01. Install node.js and setup environment paths
+    01. Install node.js and setup environment paths.
             node -v
             npm -v
-    02. Navigate to the directory where project needs to be created
+    02. Navigate to the directory where project needs to be created.
             npx create-react-app mern-excercise-tracker
     03. cd mern-excercise-tracker
         mkdir backend
         cd backend
     04. npm init -y
     05. npm install express cors mongoose dotenv
-        cors -> Cross Origin Resource Sharing
-    06. 
+            cors   -> Cross Origin Resource Sharing
+            dotenv -> load environment variables from .env file
+    06. npm install -g nodemon
+            Nodemon is a tool that automatically restart the node application when file changes in the directory are detected.
+            -g -> globally installing the package
+    07. Create server.js file in backend directory.
+        Write necessary code in server.js file.
+        Start the server.
+            nodemon server
+    08. Create .env file in backend directory.
+        Add the environment variables.
+
+
+            
+05. React introduction
+
+
+
+
+
+
+06. Creating the frontend of the excercise tracker app
+
+
+
+
+
+
+07. Connecting the frontend to the backend
+
+
+

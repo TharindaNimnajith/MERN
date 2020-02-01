@@ -1,3 +1,7 @@
 
-git.txt
+# mongodb atlas connection string for .env file
 connection_string.txt
+
+# other
+#git.txt
+#notes.txt

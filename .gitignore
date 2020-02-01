@@ -31,4 +31,5 @@ yarn-error.log*
 #git.txt
 #notes.txt
 
-/.vscode
+# vs code settings
+#/.vscode

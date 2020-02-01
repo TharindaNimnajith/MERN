@@ -63,6 +63,15 @@ connection.once('open', () => {
     console.log("MongoDB database connection established successfully");
 });
 
+// require users.js and exercises.js files
+const usersRouter = require('./routes/users');
+const exercisesRouter = require('./routes/exercises');
+
+// use users.js and exercises.js files
+// when the following routes are added to the root url, the relevant Router will be loaded
+app.use('/users', usersRouter);
+app.use('/exercises', exercisesRouter);
+
 // starts the server listening on a certain port
 app.listen(port, () => {
     console.log(`Server is running on port: ${port}`);

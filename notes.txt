@@ -137,6 +137,10 @@ Steps and commands for environment setup and installing necessary dependencies:
     09. Create models directory in backend directory.
         Create user.model.js file and excercise.model.js files.
         Write necessary code in user.model.js file and excercise.model.js files.
+    10. Create routes directory in backend directory.
+        Create users.js file and excercises.js files.
+        Write necessary code in users.js file and excercises.js files.
+        Require and use users.js and exercises.js files in server.js file
 
 
 

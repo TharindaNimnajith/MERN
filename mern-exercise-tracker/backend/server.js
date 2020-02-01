@@ -40,21 +40,20 @@ mongoose.connect(uri, options);
 */
 /*
 try {
-    await mongoose.connect(uri, { 
-        useNewUrlParser: true 
+    await mongoose.connect(uri, {
+        useNewUrlParser: true
     });
 } catch (error) {
     handleError(error);
 }
 */
 /*
-mongoose.connect(uri, { 
+mongoose.connect(uri, {
     useNewUrlParser: true,
     useCreateIndex: true,
     useUnifiedTopology: true
 }).catch(error => handleError(error));
 */
-
 const connection = mongoose.connection;
 connection.once('open', () => {
     console.log("MongoDB database connection established successfully");

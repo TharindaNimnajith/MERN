@@ -30,3 +30,5 @@ yarn-error.log*
 # other
 #git.txt
 #notes.txt
+
+.vscode

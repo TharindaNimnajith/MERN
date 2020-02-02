@@ -141,14 +141,194 @@ Steps and commands for environment setup and installing necessary dependencies:
         Create users.js file and excercises.js files.
         Write necessary code in users.js file and excercises.js files.
         Require and use users.js and exercises.js files in server.js file.
+
+
     11. Use a tool like Insomnia or Postman to test the server API.
+
+
+        example:
+
+            http://localhost:5000/users/add  ->  POST requests
+
+            {
+                "username": "tharinda"
+            }
+
+            {
+                "username": "ravishanka"
+            }
+
+
+            http://localhost:5000/users/  ->  GET request
+
+            [
+                {
+                    "_id": "5e36f8e9d7a80f11080e0fd9",
+                    "username": "tharinda",
+                    "createdAt": "2020-02-02T16:29:29.915Z",
+                    "updatedAt": "2020-02-02T16:29:29.915Z",
+                    "__v": 0
+                },
+                {
+                    "_id": "5e36f8f0d7a80f11080e0fda",
+                    "username": "ravishanka",
+                    "createdAt": "2020-02-02T16:29:36.612Z",
+                    "updatedAt": "2020-02-02T16:29:36.612Z",
+                    "__v": 0
+                }
+            ]
+
+
+            http://localhost:5000/exercises/add  ->  POST requests
+
+            {
+                "username": "tharinda",
+                "description": "run",
+                "duration": 9,
+                "date": "2020-02-02T16:29:29.915Z"
+            }
+
+            {
+                "username": "ravishanka",
+                "description": "bike ride",
+                "duration": 30,
+                "date": "2020-02-01T16:29:29.915Z"
+            }
+
+
+            http://localhost:5000/exercises/  ->  GET request
+
+            [
+                {
+                    "_id": "5e36fb39d7a80f11080e0fdb",
+                    "username": "tharinda",
+                    "description": "run",
+                    "duration": 9,
+                    "date": "2020-02-02T16:29:29.915Z",
+                    "createdAt": "2020-02-02T16:39:21.280Z",
+                    "updatedAt": "2020-02-02T16:39:21.280Z",
+                    "__v": 0
+                },
+                {
+                    "_id": "5e36fb5cd7a80f11080e0fdc",
+                    "username": "ravishanka",
+                    "description": "bike ride",
+                    "duration": 30,
+                    "date": "2020-02-01T16:29:29.915Z",
+                    "createdAt": "2020-02-02T16:39:56.378Z",
+                    "updatedAt": "2020-02-02T16:39:56.378Z",
+                    "__v": 0
+                }
+            ]
+
+
+            http://localhost:5000/exercises/5e36fb39d7a80f11080e0fdb  ->  GET request
+
+            {
+                "_id": "5e36fb39d7a80f11080e0fdb",
+                "username": "tharinda",
+                "description": "run",
+                "duration": 9,
+                "date": "2020-02-02T16:29:29.915Z",
+                "createdAt": "2020-02-02T16:39:21.280Z",
+                "updatedAt": "2020-02-02T16:39:21.280Z",
+                "__v": 0
+            }
+
+
+            http://localhost:5000/users/5e36f8e9d7a80f11080e0fd9  ->  GET request
+
+            {
+                "_id": "5e36f8e9d7a80f11080e0fd9",
+                "username": "tharinda",
+                "createdAt": "2020-02-02T16:29:29.915Z",
+                "updatedAt": "2020-02-02T16:29:29.915Z",
+                "__v": 0
+            }
+
+
+            http://localhost:5000/users/update/5e36f8e9d7a80f11080e0fd9  ->  POST request
+
+            {
+                "username": "Tharinda"
+            }
+
+
+            http://localhost:5000/users/5e36f8e9d7a80f11080e0fd9  ->  GET request
+
+            {
+                "_id": "5e36f8e9d7a80f11080e0fd9",
+                "username": "Tharinda",
+                "createdAt": "2020-02-02T16:29:29.915Z",
+                "updatedAt": "2020-02-02T16:49:40.838Z",
+                "__v": 0
+            }
+
+
+            http://localhost:5000/exercises/update/5e36fb39d7a80f11080e0fdb  ->  POST request
+
+            {
+                "username": "Tharinda",
+                "description": "walk",
+                "duration": 30,
+                "date": "2020-02-02T16:29:29.915Z"
+            }
+
+
+            http://localhost:5000/exercises/5e36fb39d7a80f11080e0fdb  ->  GET request
+
+            {
+                "_id": "5e36fb39d7a80f11080e0fdb",
+                "username": "Tharinda",
+                "description": "walk",
+                "duration": 30,
+                "date": "2020-02-02T16:29:29.915Z",
+                "createdAt": "2020-02-02T16:39:21.280Z",
+                "updatedAt": "2020-02-02T16:52:05.667Z",
+                "__v": 0
+            }
+
+
+            http://localhost:5000/users/5e36f8f0d7a80f11080e0fda  ->  DELETE request
+
+
+            http://localhost:5000/users/  ->  GET request
+
+            [
+                {
+                    "_id": "5e36f8e9d7a80f11080e0fd9",
+                    "username": "Tharinda",
+                    "createdAt": "2020-02-02T16:29:29.915Z",
+                    "updatedAt": "2020-02-02T16:49:40.838Z",
+                    "__v": 0
+                }
+            ]
+
+
+            http://localhost:5000/exercises/5e36fb5cd7a80f11080e0fdc  ->  DELETE request
+
+
+            http://localhost:5000/exercises/  ->  GET request
+
+            [
+                {
+                    "_id": "5e36fb39d7a80f11080e0fdb",
+                    "username": "Tharinda",
+                    "description": "walk",
+                    "duration": 30,
+                    "date": "2020-02-02T16:29:29.915Z",
+                    "createdAt": "2020-02-02T16:39:21.280Z",
+                    "updatedAt": "2020-02-02T16:52:05.667Z",
+                    "__v": 0
+                }
+            ]
 
 
 
 05. React introduction
 
 
-
+43.30
 
 
 

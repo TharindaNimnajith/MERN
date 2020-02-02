@@ -3,4 +3,4 @@
 
 ## MongoDB, Express, React, Node.js, and Mongoose
 
-### An exercise tracker application
+### An Exercise Tracker Application

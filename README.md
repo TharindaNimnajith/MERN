@@ -1,6 +1,11 @@
 
-# MERN Stack
+# Exercise Tracker Application
 
-## MongoDB, Express, React, Node.js, and Mongoose
+## A React Web Application with CRUD operations using MERN Stack
 
-### Exercise Tracker Application
+### MongoDB, Express.js, React.js Node.js
+
+### MongoDB Atlas, Mongoose
+### Postman, Insomnia
+### npm, nodemon, cors, dotenv
+### JavaScript, ES6, TypeScript, Markdown, JSON

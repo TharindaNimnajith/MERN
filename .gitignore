@@ -27,9 +27,10 @@ yarn-error.log*
 # mongodb atlas connection string for .env file
 #connection_string.txt
 
+# vs code settings
+#/.vscode
+
 # other
 #git.txt
 #notes.txt
-
-# vs code settings
-#/.vscode
+#links.md

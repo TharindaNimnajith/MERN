@@ -3,7 +3,7 @@
 
 ## A React Web Application with CRUD operations using MERN Stack
 
-### MongoDB, Express.js, React.js Node.js
+## MongoDB, Express.js, React.js Node.js
 
 ### MongoDB Atlas, Mongoose
 

@@ -5,17 +5,19 @@ const express = require('express');
 const cors = require('cors');
 const mongoose = require('mongoose');
 
-// to have environment variables in .env file
-require('dotenv').config();
 
-const app = express(); // create the express server
+require('dotenv').config();  // to have environment variables in .env file
+
+const app = express();  // create the express server
 const port = process.env.PORT || 5000;  // port of the server
 
 app.use(cors());  // cors middleware
 app.use(express.json());  // allow to parse json as the server is sending and receiving json
 
+
+const uri = process.env.ATLAS_URI;  // get the uri from the environment variable defined in the .env file
+
 // starting the database connection using the uri in mongodb atlas dashboard
-const uri = process.env.ATLAS_URI;
 mongoose.connect(uri, {
     useNewUrlParser: true,
     useCreateIndex: true,
@@ -55,10 +57,10 @@ mongoose.connect(uri, {
 }).catch(error => handleError(error));
 */
 
-// a mongoose connection is an instance of EventEmitter class
+const connection = mongoose.connection;  // a mongoose connection is an instance of EventEmitter class
+
 // this adds a one time listener for the event
 // this listener is invoked only the next time the event is fired, after which it is removed
-const connection = mongoose.connection;
 connection.once('open', () => {
     console.log("MongoDB database connection established successfully");
 });

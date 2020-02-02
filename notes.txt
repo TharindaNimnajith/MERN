@@ -140,7 +140,8 @@ Steps and commands for environment setup and installing necessary dependencies:
     10. Create routes directory in backend directory.
         Create users.js file and excercises.js files.
         Write necessary code in users.js file and excercises.js files.
-        Require and use users.js and exercises.js files in server.js file
+        Require and use users.js and exercises.js files in server.js file.
+    11. Use a tool like Insomnia or Postman to test the server API.
 
 
 

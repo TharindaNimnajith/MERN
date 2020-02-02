@@ -17,12 +17,10 @@ const userSchema = new Schema({
         minlength: 3
     },
 }, {
-        // timestamps will be automatically set and updated when creating or modifying the particular field
-        timestamps: true
+    timestamps: true  // timestamps will be automatically set and updated when creating or modifying the particular field
 });
 
-// to use the schema definition, the schema needs to be converted into a model
-const User = mongoose.model('User', userSchema);
+const User = mongoose.model('User', userSchema);  // to use the schema definition, the schema needs to be converted into a model
 
 // export module in node.js
 // module.exports is a special object which is included in every JS file in the node.js application by default

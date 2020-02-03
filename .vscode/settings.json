@@ -2,6 +2,7 @@
     "git.ignoreLimitWarning": true,
     "svn.ignoreMissingSvnWarning": true,
     "cSpell.words": [
+        "jshint",
         "Gopkg",
         "Kubernetes",
         "Laravel",

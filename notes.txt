@@ -328,14 +328,50 @@ Steps and commands for environment setup and installing necessary dependencies:
 05. React introduction
 
 
-43.30
+    01. React is a declarative, efficient and flexible JavaScript library for building UIs.
+    02. React lets to compose complex UIs from small, isolated pieces of code called "components".
+
+    example:
+
+        // jsx syntax
+        // react component class
+        class ShoppingList extends React.Component {
+            render() {
+                return (
+                    <div className="shopping-list">
+                        <h1>Shopping List for {this.props.name}</h1>  // props -> properties
+                        <ul>
+                            <li>Cereal</li>
+                            <li>Milk</li>
+                            <li>Bananas</li>
+                        </ul>
+                    </div>
+                );
+            }
+        }
+
+        <ShoppingList name="Tharinda" />  // example usage
 
 
 
 06. Creating the frontend of the excercise tracker app
 
 
+steps:
 
+    01. Modify index.html file in public directory as necessary.
+    02. Modify index.css and index.js files in src directory as necessary.
+    03. Modify App.js and App.css files in src directory as necessary.
+
+    04. Start the react app.
+
+            cd mern-excercise-tracker
+            npm start
+
+            Local           :  http://localhost:3000/
+            On Your Network :  http://192.168.1.100:3000/
+
+            Edit src/App.js and save to reload.
 
 
 

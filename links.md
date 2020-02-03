@@ -45,6 +45,12 @@
 
 ### <https://www.quora.com/What-is-the-difference-between-AngularJS-and-Angular-2>
 
+### <https://reactjs.org/>
+
+### <https://angular.io/>
+
+### <https://angularjs.org/>
+
 ### <https://www.youtube.com/watch?v=4deVCNJq3qc>
 
 ### <https://www.youtube.com/watch?v=vtPkZShrvXQ>

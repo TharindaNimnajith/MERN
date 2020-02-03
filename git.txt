@@ -9,3 +9,10 @@ git remote add origin https://github.com/TharindaNimnajith/MERN.git
 git push -u origin master
 
 git pull origin master
+
+// rollback a github repository to a specific commit
+git reset --hard <old-commit-id>
+git push -f <remote-name> <branch-name>
+
+// warning: LF will be replaced by CRLF
+git config core.autocrlf true

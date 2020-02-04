@@ -7032,30 +7032,30 @@
                                                             null ===
                                                             (s = r.alternate)
                                                                 ? ((r.childExpirationTime = 0),
-                                                                  (r.expirationTime = n),
-                                                                  (r.child = null),
-                                                                  (r.memoizedProps = null),
-                                                                  (r.memoizedState = null),
-                                                                  (r.updateQueue = null),
-                                                                  (r.dependencies = null))
+                                                                    (r.expirationTime = n),
+                                                                    (r.child = null),
+                                                                    (r.memoizedProps = null),
+                                                                    (r.memoizedState = null),
+                                                                    (r.updateQueue = null),
+                                                                    (r.dependencies = null))
                                                                 : ((r.childExpirationTime =
-                                                                      s.childExpirationTime),
-                                                                  (r.expirationTime =
-                                                                      s.expirationTime),
-                                                                  (r.child =
-                                                                      s.child),
-                                                                  (r.memoizedProps =
-                                                                      s.memoizedProps),
-                                                                  (r.memoizedState =
-                                                                      s.memoizedState),
-                                                                  (r.updateQueue =
-                                                                      s.updateQueue),
-                                                                  (n =
-                                                                      s.dependencies),
-                                                                  (r.dependencies =
-                                                                      null === n
-                                                                          ? null
-                                                                          : {
+                                                                        s.childExpirationTime),
+                                                                    (r.expirationTime =
+                                                                        s.expirationTime),
+                                                                    (r.child =
+                                                                        s.child),
+                                                                    (r.memoizedProps =
+                                                                        s.memoizedProps),
+                                                                    (r.memoizedState =
+                                                                        s.memoizedState),
+                                                                    (r.updateQueue =
+                                                                        s.updateQueue),
+                                                                    (n =
+                                                                        s.dependencies),
+                                                                    (r.dependencies =
+                                                                        null === n
+                                                                            ? null
+                                                                            : {
                                                                                 expirationTime:
                                                                                     n.expirationTime,
                                                                                 firstContext:
@@ -7105,11 +7105,11 @@
                                                         r - 1));
                                         a.isBackwards
                                             ? ((s.sibling = t.child),
-                                              (t.child = s))
+                                                (t.child = s))
                                             : (null !== (r = a.last)
-                                                  ? (r.sibling = s)
-                                                  : (t.child = s),
-                                              (a.last = s));
+                                                ? (r.sibling = s)
+                                                : (t.child = s),
+                                                (a.last = s));
                                     }
                                     if (null !== a.tail) {
                                         0 === a.tailExpiration &&
@@ -7203,14 +7203,14 @@
                     r <= e.lastSuspendedTime
                         ? (e.firstSuspendedTime = e.lastSuspendedTime = e.nextKnownPendingLevel = 0)
                         : r <= e.firstSuspendedTime &&
-                          (e.firstSuspendedTime = r - 1),
+                            (e.firstSuspendedTime = r - 1),
                     r <= e.lastPingedTime && (e.lastPingedTime = 0),
                     r <= e.lastExpiredTime && (e.lastExpiredTime = 0),
                     e === zo && ((Oo = zo = null), (Mo = 0)),
                     1 < n.effectTag
                         ? null !== n.lastEffect
                             ? ((n.lastEffect.nextEffect = n),
-                              (l = n.firstEffect))
+                                (l = n.firstEffect))
                             : (l = n)
                         : (l = n.firstEffect),
                     null !== l)

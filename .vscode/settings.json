@@ -2,7 +2,6 @@
     "git.ignoreLimitWarning": true,
     "svn.ignoreMissingSvnWarning": true,
     "cSpell.words": [
-        "jshint",
         "Gopkg",
         "Kubernetes",
         "Laravel",
@@ -19,9 +18,11 @@
         "crystallang",
         "deps",
         "distcheck",
+        "esversion",
         "eunit",
         "gcloud",
         "gradlew",
+        "jshint",
         "kubectl",
         "kustomization",
         "kustomize",
@@ -47,5 +48,219 @@
         "sqlite",
         "webapps",
         "webfonts"
-    ]
+    ],
+    "files.autoSave": "afterDelay",
+    "window.zoomLevel": -1,
+    "workbench.iconTheme": "vscode-great-icons",
+    "php.validate.executablePath": "C:\\xampp\\php\\php.exe",
+    "php.executablePath": "C:\\xampp\\php\\php.exe",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "atomKeymap.promptV3Features": true,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.formatOnPaste": true,
+    "team.showWelcomeMessage": false,
+    "peacock.favoriteColors": [
+        {
+            "name": "Angular Red",
+            "value": "#b52e31"
+        },
+        {
+            "name": "Auth0 Orange",
+            "value": "#eb5424"
+        },
+        {
+            "name": "Azure Blue",
+            "value": "#007fff"
+        },
+        {
+            "name": "C# Purple",
+            "value": "#68217A"
+        },
+        {
+            "name": "Gatsby Purple",
+            "value": "#639"
+        },
+        {
+            "name": "Go Cyan",
+            "value": "#5dc9e2"
+        },
+        {
+            "name": "Java Blue-Gray",
+            "value": "#557c9b"
+        },
+        {
+            "name": "JavaScript Yellow",
+            "value": "#f9e64f"
+        },
+        {
+            "name": "Mandalorian Blue",
+            "value": "#1857a4"
+        },
+        {
+            "name": "Node Green",
+            "value": "#215732"
+        },
+        {
+            "name": "React Blue",
+            "value": "#00b3e6"
+        },
+        {
+            "name": "Something Different",
+            "value": "#832561"
+        },
+        {
+            "name": "Vue Green",
+            "value": "#42b883"
+        }
+    ],
+    "workbench.colorTheme": "dark-plus-syntax",
+    "[php]": {
+        "editor.defaultFormatter": "bmewburn.vscode-intelephense-client",
+        "editor.tabSize": 4,
+        "editor.autoIndent": "full",
+        "editor.detectIndentation": true
+    },
+    "cSpell.userWords": [
+        "Gopkg",
+        "Kubernetes",
+        "Laravel",
+        "Nimnajith",
+        "PYPI",
+        "Rajapaksha",
+        "Tharinda",
+        "WEBAPP",
+        "antialiased",
+        "bdist",
+        "browserslist",
+        "buildfile",
+        "chmod",
+        "crystallang",
+        "deps",
+        "distcheck",
+        "esversion",
+        "eunit",
+        "gcloud",
+        "gradlew",
+        "jshint",
+        "kubectl",
+        "kustomization",
+        "kustomize",
+        "lein",
+        "macos",
+        "markdownlint",
+        "mern",
+        "minlength",
+        "mkdir",
+        "noinput",
+        "noopener",
+        "noreferrer",
+        "onstatechange",
+        "onupdatefound",
+        "phpunit",
+        "precached",
+        "printf",
+        "pytest",
+        "rebar",
+        "rubygems",
+        "sdist",
+        "setuptools",
+        "sqlite",
+        "webapps",
+        "webfonts"
+    ],
+    "cSpell.enabledLanguageIds": [
+        "asciidoc",
+        "c",
+        "cpp",
+        "csharp",
+        "css",
+        "git-commit",
+        "go",
+        "handlebars",
+        "haskell",
+        "html",
+        "jade",
+        "java",
+        "javascript",
+        "javascriptreact",
+        "json",
+        "jsonc",
+        "latex",
+        "less",
+        "php",
+        "plaintext",
+        "pug",
+        "python",
+        "restructuredtext",
+        "rust",
+        "scala",
+        "scss",
+        "text",
+        "typescript",
+        "typescriptreact",
+        "yaml",
+        "yml"
+    ],
+    "todo-tree.highlights.enabled": true,
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features",
+        "editor.tabSize": 4,
+        "editor.autoIndent": "full",
+        "editor.detectIndentation": true
+    },
+    "java.configuration.checkProjectSettingsExclusions": false,
+    "vs-kubernetes": {
+        "vs-kubernetes.helm-path": "C:\\Users\\ASUS\\.vs-kubernetes\\tools\\helm\\windows-amd64\\helm.exe",
+        "vs-kubernetes.draft-path": "C:\\Users\\ASUS\\.vs-kubernetes\\tools\\draft\\windows-amd64\\draft.exe",
+        "vs-kubernetes.kubectl-path": "C:\\Users\\ASUS\\.vs-kubernetes\\tools\\kubectl\\kubectl.exe",
+        "vs-kubernetes.minikube-path": "C:\\Users\\ASUS\\.vs-kubernetes\\tools\\minikube\\windows-amd64\\minikube.exe"
+    },
+    "[yaml]": {
+        "editor.defaultFormatter": "redhat.vscode-yaml",
+        "editor.tabSize": 4,
+        "editor.autoIndent": "full",
+        "editor.detectIndentation": true
+    },
+    "[markdown]": {
+        "editor.defaultFormatter": "yzhang.markdown-all-in-one",
+        "editor.tabSize": 4,
+        "editor.autoIndent": "full",
+        "editor.detectIndentation": true
+    },
+    "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.tabSize": 4,
+        "editor.autoIndent": "full",
+        "editor.detectIndentation": true
+    },
+    "latex-workshop.bibtex-format.tab": "4 spaces",
+    "prettier.tabWidth": 4,
+    "vetur.format.options.tabSize": 4,
+    "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.tabSize": 4,
+        "editor.autoIndent": "full",
+        "editor.detectIndentation": true
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.tabSize": 4,
+        "editor.autoIndent": "full",
+        "editor.detectIndentation": true
+    },
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.tabSize": 4,
+        "editor.autoIndent": "full",
+        "editor.detectIndentation": true
+    },
+    "[xml]": {
+        "editor.defaultFormatter": "redhat.vscode-xml",
+        "editor.tabSize": 4,
+        "editor.autoIndent": "full",
+        "editor.detectIndentation": true
+    },
+    "json.maxItemsComputed": 10000,
+    "editor.detectIndentation": true
 }

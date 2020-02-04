@@ -16,3 +16,7 @@ git push -f <remote-name> <branch-name>
 
 // warning: LF will be replaced by CRLF
 git config core.autocrlf true
+
+// reset all changes after last commit
+git reset HEAD --hard
+git clean -fd

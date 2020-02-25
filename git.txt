@@ -9,6 +9,7 @@ git remote add origin https://github.com/TharindaNimnajith/MERN.git
 git push -u origin master
 
 git pull origin master
+git pull origin master --allow-unrelated-histories
 
 // rollback a github repository to a specific commit
 git reset --hard <old-commit-id>

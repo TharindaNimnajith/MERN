@@ -393,6 +393,67 @@ steps:
 
                 bit.ly/CRA-deploy
 
+    06. Introduction to React
+
+            <div className="App">
+                {
+                    // Hello World!
+                }
+            </div>
+
+            <div className="App">
+                {
+                    /*
+                    <header className="App-header">
+                        <img src={logo} className="App-logo" alt="logo" />
+                        <p>
+                            Edit <code>src/App.js</code> and save to reload.
+                        </p>
+
+                        <a
+                        className="App-link"
+                        href="https://reactjs.org"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        >
+                            Learn React
+                        </a>
+                    </header>
+                    */
+                }
+            </div>
+
+            <div className="container">
+                Hello World!
+            </div>
+
+    07. Installing and importing bootstrap
+
+            npm install bootstrap
+            npm install bootstrap --save
+
+            import "bootstrap/dist/css/bootstrap.min.css";
+
+    08. Installing and importing React router
+
+            React router makes it easier to route different URLs to different React components.
+
+            npm install react-router-dom
+            npm install react-router-dom --save
+
+            import { BrowserRouter as Router, Route } from "react-router-dom";
+
+            Everything to be used with the router should be put inside the Router element.
+            Paths are added in Route element inside the Router element.
+
+    09. Create components directory inside src directory.
+        Create .component.js files inside components directory.
+        Write necessary code for .component.js files.
+        Import .component.js files in App.js file.
+            ex: import Navbar from "./components/navbar.component";
+
+    10. 
+
 
 
 07. Connecting the frontend to the backend

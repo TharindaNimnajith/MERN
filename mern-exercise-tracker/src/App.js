@@ -1,6 +1,6 @@
 /* jshint esversion: 6 */
 
-import React from 'react';
+import React from 'react';  // import react
 import { BrowserRouter as Router, Route } from "react-router-dom";  // import react router for easy routing
 import "bootstrap/dist/css/bootstrap.min.css";  // import bootstrap for styling
 //import logo from './logo.svg';
@@ -17,16 +17,19 @@ import CreateUser from "./components/create-user.component";
 
 function App() {
 	return (
+        // Router element is used to route different URLs to different React components
         <Router>
-            <Navbar />
-            <br />
+            <div className="container">
+                <Navbar />
+                <br />
 
-            <Route path="/exercises" exact component={ExercisesList} />
-            <Route path="/edit_exercise/:id" exact component={EditExercise} />
-            <Route path="/create_exercise" exact component={CreateExercise} />
-            <Route path="/users" exact component={UsersList} />
-            <Route path="/edit_user/:id" exact component={EditUser} />
-            <Route path="/create_user" exact component={CreateUser} />
+                <Route path="/" exact component={ExercisesList} />
+                <Route path="/edit_exercise/:id" exact component={EditExercise} />
+                <Route path="/create_exercise" exact component={CreateExercise} />
+                <Route path="/users" exact component={UsersList} />
+                <Route path="/edit_user/:id" exact component={EditUser} />
+                <Route path="/create_user" exact component={CreateUser} />
+            </div>
         </Router>
     );
 }

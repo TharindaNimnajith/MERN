@@ -17,7 +17,7 @@ export default class Navbar extends Component {
                     Exercise Tracker
                 </Link>
                 <div className="collapse navbar-collapse">
-                    <ul>
+                    <ul className="navbar-nav mr-auto">
                         <li className="navbar-item">
                             <Link to="/" className="nav-link">
                                 Exercises

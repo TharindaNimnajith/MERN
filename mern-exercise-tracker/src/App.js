@@ -6,6 +6,11 @@ import "bootstrap/dist/css/bootstrap.min.css";  // import bootstrap for styling
 //import logo from './logo.svg';
 //import './App.css';
 
+// logrocket
+//import LogRocket from 'logrocket';
+//LogRocket.init('fggygy/mern');
+//setupLogRocketReact(LogRocket);
+
 // import components
 import Navbar from "./components/navbar.component";
 import ExercisesList from "./components/exercises-list.component";

@@ -10,6 +10,11 @@ import App from './App';  // frontend react app is going to be created in the Ap
 
 import * as serviceWorker from './serviceWorker';
 
+// logrocket
+//import LogRocket from 'logrocket';
+//LogRocket.init('fggygy/mern');
+//setupLogRocketReact(LogRocket);
+
 ReactDOM.render(<App />, document.getElementById('root'));  // render the app and load it to the root element
 
 // If you want your app to work offline and load faster, you can change
